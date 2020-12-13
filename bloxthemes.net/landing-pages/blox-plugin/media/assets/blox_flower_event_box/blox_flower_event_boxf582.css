@@ -1,0 +1,57 @@
+.blox_flower{
+    background: red;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    text-align: center;
+    transform: rotate(20deg);
+    border-radius:20px;
+    display:inline-block;
+
+}
+.blox_flower:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 120px;
+    background: red;
+    transform: rotate(135deg);
+    border-radius:20px;
+}
+
+.blox_flower_center
+{
+  position:absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+  color:white;
+}
+
+.blox_flower_day
+{
+  font-size:40px;
+
+}
+
+.blox_flower_month
+{
+  font-size:18px;
+}
+
+.blox_flower_event_box_title
+{
+  padding-top:30px;
+    font-size:18px;
+  padding-bottom:10px;
+  
+}
+
+.blox_flower_event_box_content
+{
+ color:#999;
+  line-height:1.5em;
+  
+}
